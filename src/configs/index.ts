@@ -10,6 +10,6 @@ export const siteConfigs = {
     instagram: "https://www.instagram.com/acm.ucsd/",
     discord: "https://acmurl.com/innovate-disc"
   },
-  contactEmail: "acmucsd@gmail.com",
+  contactEmail: "innovate@acmucsd.org",
   committee: "Innovate"
 }
