@@ -23,7 +23,7 @@ const LandingCard: React.FC = () => {
             </a>
           </div>
           <br></br>
-          <FontAwesomeIcon onClick={() => document.getElementById('description')?.scrollIntoView({ behavior: 'smooth' })} icon="chevron-down" />
+          <FontAwesomeIcon onClick={() => document.getElementById('description')?.scrollIntoView({ behavior: 'smooth' })} style={{cursor: "pointer"}} icon="chevron-down" />
         </div>
         <span className="landing-text">
           <h1 className="landing-title">ACM Innovate</h1>
