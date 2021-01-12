@@ -14,7 +14,7 @@ export const team = [
 		}
 	},
 	{
-		name: "Ronak",
+		name: "Ronak Shah",
 		role: "Board Member",
 		profilePicture: ronak,
 		plugs: {
