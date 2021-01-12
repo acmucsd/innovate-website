@@ -1,30 +1,21 @@
-import emily from "../assets/people/emily.png"
-import jennifer from "../assets/people/jennifer.png"
+import praneet from "../assets/people/praneet.jpg"
 import ronak from "../assets/people/ronak.jpg"
-import daniel from "../assets/people/daniel.jpg"
+import adam from "../assets/people/adam.jpg"
+import anish from "../assets/people/anish.jpg"
+import tristan from "../assets/people/tristan.jpg"
 
 export const team = [
 	{
-		name: "Emily",
-		role: "Supreme Leader",
-		profilePicture: emily,
+		name: "Praneet Bhoj",
+		role: "Chair",
+		profilePicture: praneet,
 		plugs: {
-			linkedin: "emilyhuongnguyen",
-			github: "eminguyen"
-		}
-	},
-	{
-		name: "Jennifer",
-		role: "Developer",
-		profilePicture: jennifer,
-		plugs: {
-			linkedin: "jennifer-pham-575ab113b/",
-			github: "Froggerson"
+			linkedin: "praneet-bhoj",
 		}
 	},
 	{
 		name: "Ronak",
-		role: "PM",
+		role: "Board Member",
 		profilePicture: ronak,
 		plugs: {
 			linkedin: "trulyronak",
@@ -32,13 +23,29 @@ export const team = [
 		}
 	},
 	{
-		name: "Daniel",
-		role: "QA",
-		profilePicture: daniel,
+		name: "Adam Lee",
+		role: "Board Member",
+		profilePicture: adam,
 		plugs: {
-			instagram: "daniel14truong",
-			linkedin: "daniel-d-truong",
-			github: "daniel-d-truong"
+			linkedin: "adam-lee-ucsd",
+			github: "jimzers"
+		}
+	},
+	{
+		name: "Anish Gopalan",
+		role: "Discord Moderator",
+		profilePicture: anish,
+		plugs: {
+			linkedin: "anishgopalan",
+			github: "agop2020"
+		}
+	},
+	{
+		name: "Tristan Tjan",
+		role: "Community Manager",
+		profilePicture: tristan,
+		plugs: {
+			linkedin: "tristantjan",
 		}
 	},
 	

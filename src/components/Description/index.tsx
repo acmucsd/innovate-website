@@ -2,22 +2,31 @@ import React from 'react';
 import './style.less';
 import heart from '../../assets/heart.svg';
 import DescriptionImg from '../../assets/description_image.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faTools } from '@fortawesome/free-solid-svg-icons';
+library.add(faTools);
 
 const Description: React.FC = () => (
   <div className="description" id="description">
-    <h2>A Community of Developers <img alt="heart icon" src={heart}></img> </h2>
+    <h2>
+      A Community of Innovators <FontAwesomeIcon icon={['fas', 'tools']} size="xs" />{' '}
+    </h2>
     <div className="description-content">
       <span className="text">
-        Ay wassup gamers its jennifer back with another minecraft
-        livestream last time we lost our cat fluffy because some one killed
-        it we dont know who did it but today we will avenge our fluffy friend
-        first well need one bar of melon ice cream and a bottle of water, mix
-        them together into a cup and drink it because were going to have a
-        wild ride also were going to need a sad playlist because were still
-        sad about fluffys death ok i miss you buddy were gonna kill the
-        ender dragon for ya its 4 am
+        We are a sub-org of ACM, and our goal is to create and foster an entrepreneurial and innovative spirit at UC San
+        Diego with regard to both new nonprofit and for-profit companies. Our goals are to increase interest in
+        startups, make them much more accessible, and bring the innovation spirit and mentality to all aspects of
+        members’ careers. <br />
+        <br />
+        We frequently host activities including, but not limited to, guest speaker talks and workshops, and we have a
+        lot of exciting stuff planned in the future! 
+        <br/><br/>
+        Our events are for people of all skill levels, so whether you're
+        just getting into entrepreneurship or are the CEO of a nonprofit, we'd be happy to have you join the ACM
+        Innovate community!
       </span>
-      <img className="description-image" src={DescriptionImg} alt="It's us!" />
+      {/* <img className="description-image" src={DescriptionImg} alt="It's us!" /> */}
     </div>
   </div>
 );
