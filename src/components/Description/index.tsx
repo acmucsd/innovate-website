@@ -1,7 +1,5 @@
 import React from 'react';
 import './style.less';
-import heart from '../../assets/heart.svg';
-import DescriptionImg from '../../assets/description_image.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTools } from '@fortawesome/free-solid-svg-icons';
