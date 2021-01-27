@@ -27,10 +27,6 @@ const Contact: React.FC = () => (
       <a href={siteConfigs.links.instagram} target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon color="white" icon={['fab', 'instagram']} size="lg"/>
       </a>
-      <a href={siteConfigs.links.discord} target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon color="white" icon={['fab', 'discord']} size="lg"/>
-      </a>
-
     </div>
   </div>
 );

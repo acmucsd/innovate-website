@@ -8,8 +8,8 @@ export const siteConfigs = {
     facebook: "https://www.facebook.com/acmucsd/",
     github: "https://github.com/acmucsd",
     instagram: "https://www.instagram.com/acm.ucsd/",
-    discord: "https://acmurl.com/innovate-disc"
   },
-  contactEmail: "innovate@acmucsd.org",
-  committee: "Innovate"
+  contactEmail: "acmucsd@gmail.com",
+  committee: "",
+  apiUrl: 'https://api.acmucsd.com/api/v2',
 }
